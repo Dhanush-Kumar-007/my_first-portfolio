@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush's Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/e55aa8428a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <img src="public/dhanush-high-resolution-logo-transparent.png" id="logo">
+                <ul class="listelm">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#myservices">My Services</a></li>
+                    <li><a href="#myworks">My Works</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="title-text">
+                <h1>I'm <span>Dhanush</span><br>Kumar from India </h1>
+                <p>I'm a Software Engineer,Web Developer,etc.</p>
+            </div>
+            <div class="title-img">
+                <img src="public/Dhanush_img2.JPG" alt="Photo.img">
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------header------------------------ -->
+    <div id="aboutme">
+        <div class="container">
+            <div class="aboutrow">
+                <div class="column1">
+                    <img src="public\IMG_20250314_145237.jpg" alt="img2">
+                </div>
+                <div class="column2">
+                    <h1 class="titles">About Me</h1>
+                    <p id="abt">“Hello! I’m Dhanush Kumar N, currently pursuing a degree in Computer Science and
+                        Engineering. My
+                        interests span machine learning, data science, UI/UX design, and web development . With several
+                        web
+                        development projects under my belt, I aim to innovate and excel as a software engineer.”
+                    </p>
+                    <div class="tab-titles">
+                        <button class="tab-links active-link" id="skills"
+                            onclick="change('skills','skils')">Skills</button>
+                        <button class="tab-links" onclick="change('Edu','education')" id="Edu">Education</button>
+                    </div>
+                    <div class="tab-contents">
+                        <ul class="tab-content active-content" id="skils">
+                            <li><span class="brief">Web development</span><br>Started learning Full Stack Web
+                                development after
+                                completing High school,It gave me a interests in Software side,so I switched my career
+                                in Computer Technologies. </li>
+                            <li>
+                                <span class="brief">UI/UX Designing</span><br>the way pixels transformed into immersive
+                                worlds. I
+                                realized that creating seamless experiences was my calling. So, I embarked on a journey
+                                to blend artistry and functionality, shaping digital landscapes that resonate with
+                                users.
+                            </li>
+                            <li>
+                                <span class="brief">Data Science</span><br>Growing up, I was fascinated by
+                                patterns—whether in nature,
+                                puzzles, or spreadsheets. Data science became my compass, allowing me to navigate
+                                through the chaos of information, uncover hidden insights, and shape a better world—one
+                                algorithm at a time.
+                            </li>
+                            <li>
+                                <span class="brief">AIML</span><br>AI-enabled programs can analyze data, contextualize
+                                information, and even trigger actions without human interference.
+                                It enables systems to identify patterns, make decisions, and improve themselves through
+                                experience.
+                                Deep learning, an advanced form of ML, uses large neural networks to learn complex
+                                patterns independently.
+                            </li>
+                        </ul>
+
+                        <ul class="tab-content" id="education">
+                            <li>
+                                <span class="brief">2009-2024</span><br>
+                                Studied at Literacy Mission Mat. Hr. School,Samalapuram.
+                            </li>
+                            <li>
+                                <span class="brief">2024-till date</span><br>
+                                Pursuing Degree in Computer Science and Engineering at KPR institute of Engineering and
+                                Technology.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------aboutme--------------------------------- -->
+
+    <div id="myservices">
+        <div class="container">
+            <h1 class="titles">
+                My Services
+            </h1>
+            <div class="services">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Web Development</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo enim expedita illum nisi quod
+                        quidem harum quisquam dolorum, laborum commodi! Pariatur officiis culpa alias quaerat velit
+                        corrupti! Tempora, rerum odit!
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h4>AIML</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium repellat quod sit ullam ex
+                        harum? Delectus voluptatem porro incidunt? Facere expedita, beatae soluta reiciendis ducimus
+                        voluptatibus architecto minus eaque eligendi.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h4>App Development</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sit voluptatibus totam asperiores
+                        itaque, quo aliquid temporibus consectetur molestias minus doloremque dolor perspiciatis nihil
+                        voluptates dolorum. Accusamus, culpa ex? Ad!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------myservices--------------------------------- -->
+    <div id="myworks">
+        <div class="container">
+            <div class="titles">
+                <h1 id="myworkhead">My Works</h1>
+            </div>
+
+            <div class="works">
+                <div class="work">
+                    <img src="public\work3.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>PortFolio Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="public\work1.jpg" alt="work2">
+                    <div class="layer">
+                        <h3>Bookdescription Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <a href="linked-pages/BookSky_SimplePage/booksky.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="public\work2.jpg" alt="work3">
+                    <div class="layer">
+                        <h3>Abt AIML (Article)</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------myworks--------------------------------- -->
+    <div id="contactme">
+        <div class="container">
+            <div class="contactpage">
+                <div class="colm1">
+                    <div class="titles">
+                        <h1 id="contacttitle">Contact Me</h1>
+                    </div>
+                    <p>Form to get in touch!</p>
+
+                    <div class="contact-info">
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Phone</h4>
+                            <p>+91 9994896541</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>dhanushking484@gmail.com</p>
+                        </div>
+                        <div id="contact-logos">
+                            <a href="https://www.facebook.com/profile.php?id=100055527458546"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/dhanushkumarn-developer/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        
+                        <button id="CV">Download CV</button>
+                    </div>
+                    
+
+                </div>
+                <div class="colm2">
+                    <div class="contact-form">
+                        <form action="index.php" method="post">
+                            <input type="text" name="name" id="name" placeholder="Your Name">
+                            <input type="email" name="email" id="email" placeholder="Your Email">
+                            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <---------------------------contact-me---------------------------------------------->
+     
+    <div id="copyright">
+        <p>This site © 2024 By Dhanush Kumar N</p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- <-----------------------------copyright------------------------>
+</body>
+
+</html>
