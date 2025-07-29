@@ -373,7 +373,11 @@ nav ul li a:hover::after{
     text-decoration: none;
     color: #fff;
 }
-
+#msg{
+    color: #46df2b;
+    margin-top: -70px;
+    display: block;
+}
 
 
 
