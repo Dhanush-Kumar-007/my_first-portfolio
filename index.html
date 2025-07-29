@@ -211,7 +211,7 @@
                 </div>
                 <div class="colm2">
                     <div class="contact-form">
-                        <form action="index.php" method="post">
+                        <form method="post" name="submit-to-google-sheet">
                             <input type="text" name="name" id="name" placeholder="Your Name">
                             <input type="email" name="email" id="email" placeholder="Your Email">
                             <textarea name="message" id="message" placeholder="Your Message"></textarea>
@@ -232,5 +232,15 @@
 
     <!-- <-----------------------------copyright------------------------>
 </body>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzX9tg9H_uBAtFRZ_NRaeJDytXngE8HzqpovOk9ZIByXbjLUZtt_O9wXZzT1af16wk/exec'
+  const form = document.forms['submit-to-google-sheet']
 
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </html>
