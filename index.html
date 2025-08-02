@@ -46,9 +46,11 @@
                     <h1 class="titles">About Me</h1>
                     <p id="abt">“Hello! I’m Dhanush Kumar N, currently pursuing a degree in Computer Science and
                         Engineering. My
-                        interests span Machine learning, Artificial Intelligence, Deep learning and web development . With several
+                        interests span Machine learning, Artificial Intelligence, Deep learning and web development .
+                        With several
                         hands-on
-                        projects, I’ve developed a strong foundation in programming languages like C, C++, Python, and DBMS.
+                        projects, I’ve developed a strong foundation in programming languages like C, C++, Python, and
+                        DBMS.
                         Additionally, I aim to innovate and excel as a Successful Entrepreneur.”
                     </p>
                     <div class="tab-titles">
@@ -58,7 +60,7 @@
                     </div>
                     <div class="tab-contents">
                         <ul class="tab-content active-content" id="skils">
-                             <li>
+                            <li>
                                 <span class="brief">AIML</span><br>AI-enabled programs can analyze data, contextualize
                                 information, and even trigger actions without human interference.
                                 It enables systems to identify patterns, make decisions, and improve themselves through
@@ -70,20 +72,22 @@
                                 development after
                                 completing High school,It gave me a interests in Software side,so I switched my career
                                 in Computer Technologies. </li>
-                            
+
                             <li>
-                                <span class="brief">Cadet(NCC)</span><br>In my college years, I took on the role of Cadet in the National Cadet Corps (NCC). As a Cadet, I honed my leadership
-                                skills, guiding my peers through challenges and fostering teamwork. This role taught me
-                                the importance of communication, responsibility, and adaptability—skills that are invaluable
-                                in both personal and professional settings.
+                                <span class="brief">Best Cadet(NCC)</span><br>Recognized as the Best Cadet in the
+                                National Cadet Corps (NCC), I demonstrated exceptional leadership and commitment to the
+                                program. This experience instilled in me the values of communication, public speaking,
+                                discipline, teamwork, and resilience.
                             </li>
                             <li>
-                                <span class="brief">Programming Languages</span><br>Proficient in C, C++, Python, and Java,
+                                <span class="brief">Programming Languages</span><br>Proficient in C, C++, Python, and
+                                Java,
                                 I have a strong foundation in programming languages. My experience includes developing
                                 applications, solving complex problems, and implementing algorithms efficiently.
                             </li>
                             <li>
-                                <span class="brief">Deep Learning</span><br>My passion for Deep Learning drives me to create
+                                <span class="brief">Deep Learning</span><br>My passion for Deep Learning drives me to
+                                create
                                 models that can learn from vast amounts of data. I focus on developing algorithms that
                                 improve over time, enabling machines to understand complex patterns and make informed
                                 decisions.
@@ -126,13 +130,17 @@
                 <div>
                     <i class="fa-solid fa-robot"></i>
                     <h4>Web Development</h4>
-                    <p>As a web developer, I create responsive and user-friendly websites that provide seamless experiences across devices. My skills include HTML, CSS, JavaScript, and various frameworks to build dynamic web applications.</p>
+                    <p>As a web developer, I create responsive and user-friendly websites that provide seamless
+                        experiences across devices. My skills include HTML, CSS, JavaScript, and various frameworks to
+                        build dynamic web applications.</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-android"></i>
                     <h4>Entrepreneurship</h4>
-                    <p>As an aspiring entrepreneur, I am passionate about turning innovative ideas into successful ventures. I focus on identifying market needs, developing business strategies, and leveraging technology to create impactful solutions.</p>
+                    <p>As an aspiring entrepreneur, I am passionate about turning innovative ideas into successful
+                        ventures. I focus on identifying market needs, developing business strategies, and leveraging
+                        technology to create impactful solutions.</p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
@@ -158,7 +166,8 @@
                     <img src="public\work1.jpg" alt="work2">
                     <div class="layer">
                         <h3>Bookdescription Website</h3>
-                        <p>This is a book description website that provides detailed information about various books.</p>
+                        <p>This is a book description website that provides detailed information about various books.
+                        </p>
                         <a href="linked-pages/BookSky_SimplePage/booksky.html"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
@@ -167,7 +176,8 @@
                     <img src="public\work2.jpg" alt="work3">
                     <div class="layer">
                         <h3>Builded various ML models</h3>
-                        <p>As a Software Engineer, I specialize in building machine learning models that can analyze data,
+                        <p>As a Software Engineer, I specialize in building machine learning models that can analyze
+                            data,
                             recognize patterns, and make predictions. My expertise includes developing algorithms that
                             improve over time, enabling machines to learn from experience.</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -236,21 +246,22 @@
     <!-- <-----------------------------copyright------------------------>
 </body>
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxYCRzqdv-NO37R4mi_ebAi-A6C1Ynito0SXHu1Vt_oeFPh0kc5UOIgVAu5UfIPkk8/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg");
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxYCRzqdv-NO37R4mi_ebAi-A6C1Ynito0SXHu1Vt_oeFPh0kc5UOIgVAu5UfIPkk8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML = "Message sent successfully!";
-        setTimeout(function() {
-          msg.innerHTML = "";
-        }, 5000);
-        form.reset();
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!";
+                setTimeout(function () {
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
 </script>
+
 </html>
